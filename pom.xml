@@ -16,6 +16,28 @@
 		<maven.compiler.version>2.3.2</maven.compiler.version>
 		<junit.version>4.8.2</junit.version>
 	</properties>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>git@github.com:alexradzin/SafeChain.git</url>
+		<connection>scm:git@github.com:alexradzin/SafeChain.git</connection>
+		<developerConnection>scm:git@github.com:alexradzin/SafeChain.git</developerConnection>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>alexr</id>
+			<name>Alexander Radzin</name>
+			<email>alexander_radzin@yahoo.com</email>
+		</developer>
+	</developers>
 	
 		
 	<build>
