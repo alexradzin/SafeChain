@@ -10,6 +10,13 @@
 	<packaging>jar</packaging>
 	<version>0.1-SNAPSHOT</version>
 
+
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>	
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -86,10 +93,8 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<!--  <scope>test</scope>-->
+			<scope>test</scope>
 			<version>${junit.version}</version>
 		</dependency>
 	</dependencies>
-
-
 </project>
